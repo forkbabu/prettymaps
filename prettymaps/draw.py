@@ -305,7 +305,7 @@ def plot(
             (
                 osm_credit["text"]
                 if "text" in osm_credit
-                else "data © OpenStreetMap contributors\ngithub.com/marceloprates/prettymaps"
+                else "Sayantan Das"
             ),
             x=xmin + (osm_credit["x"] * dx if "x" in osm_credit else 0),
             y=ymax - 4 * d - (osm_credit["y"] * dy if "y" in osm_credit else 0),
